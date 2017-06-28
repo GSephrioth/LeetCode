@@ -2,21 +2,22 @@ package Easy;
 
 
 /**
+ *
  * Created by xuzhuchen on 6/27/17.
  */
-public class Reverse_Integer {
-    public int reverse(int x) {
-        if(x<0){
-            String str = Integer.toString(Math.abs(x));
-            return 0-Integer.valueOf(new StringBuffer(str).reverse().toString());
-        }else{
-            String str = Integer.toString(x);
-            return Integer.valueOf(new StringBuffer(str).reverse().toString());
+class Reverse_Integer {
+
+    int reverse(int x) {
+        int rev = 0;
+        int digit = 0;
+        while (x != 0) {
+            digit = x % 10;
+            rev = rev * 10 + digit; // add a new digit to tail of rev
+            if ((rev - digit) % 10 != 0) // deal with overflow
+                return 0;
+            x = x / 10; // delete the last digit of x
         }
-
+        return rev;
     }
-    public static void main(String args[]){
-        Reverse_Integer RI = new Reverse_Integer();
 
-    }
 }
