@@ -1,6 +1,7 @@
 package Medium;
 
 /**
+ *
  * Created by xuzhuchen on 6/28/17.
  */
 public class Tiny_URL {
