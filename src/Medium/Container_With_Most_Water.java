@@ -9,7 +9,7 @@ package Medium;
  *
  * Created by Elliott Chen on 7/10/17.
  */
-public class Container_With_Most_Water {
+class Container_With_Most_Water {
 //    // 粗暴遍历 n^2 复杂度 太慢了
 //    public int maxArea(int[] height) {
 //        int area = 0,temp = 0;
@@ -23,7 +23,7 @@ public class Container_With_Most_Water {
 //    }
 
     // good solution
-    public int maxArea(int[] height){
+    int maxArea(int[] height){
         int area = 0, temp = 0;
         int left = 0, right = height.length-1;
         while (right > left) {

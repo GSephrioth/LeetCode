@@ -18,8 +18,8 @@ package Medium;
  * <p>
  * Created by Elliott Chen on 7/10/17.
  */
-public class String_to_int {
-    public int myAtoi(String str) {
+class String_to_int {
+    int myAtoi(String str) {
         char[] inputArray = str.trim().toCharArray();
         int result = 0;
         int current = 0;

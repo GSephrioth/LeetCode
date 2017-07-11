@@ -1,5 +1,5 @@
 package Hard;
 
 
-public class Skyline_Problem {
+class Skyline_Problem {
 }
