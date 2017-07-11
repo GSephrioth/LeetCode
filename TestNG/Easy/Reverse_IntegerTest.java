@@ -8,7 +8,7 @@ import static org.testng.Assert.*;
 
 /**
  *
- * Created by xuzhuchen on 6/28/17.
+ * Created by Elliott Chen on 6/28/17.
  */
 public class Reverse_IntegerTest {
     @Test

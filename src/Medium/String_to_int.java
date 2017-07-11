@@ -16,7 +16,7 @@ package Medium;
  * Notes: It is intended for this problem to be specified vaguely (ie, no given input specs).
  * You are responsible to gather all the input requirements up front.
  * <p>
- * Created by xuzhuchen on 7/10/17.
+ * Created by Elliott Chen on 7/10/17.
  */
 public class String_to_int {
     public int myAtoi(String str) {

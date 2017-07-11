@@ -7,7 +7,7 @@ import static org.testng.Assert.*;
 
 /**
  *
- * Created by xuzhuchen on 6/28/17.
+ * Created by Elliott Chen on 6/28/17.
  */
 public class Longest_Substring_Without_Repeating_CharactersTest {
     @Test

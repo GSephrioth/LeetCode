@@ -12,7 +12,7 @@ package Medium;
  * Input: "cbbd"
  * Output: "bb"
  *
- * Created by xuzhuchen on 7/5/17.
+ * Created by Elliott Chen on 7/5/17.
  */
 class Longest_Palindromic_Substring {
     //  My solution 60%

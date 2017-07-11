@@ -9,7 +9,7 @@ import java.util.HashSet;
  * Given "abcabcbb", the answer is "abc", which the length is 3.
  * Given "bbbbb", the answer is "b", with the length of 1.
  * Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
- * Created by xuzhuchen on 6/27/17.
+ * Created by Elliott Chen on 6/27/17.
  */
 class Longest_Substring_Without_Repeating_Characters {
     //单次遍历字符串，将start和end之间的char存储于HS，

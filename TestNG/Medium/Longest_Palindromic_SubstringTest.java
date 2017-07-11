@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
 /**
- * Created by xuzhuchen on 7/5/17.
+ * Created by Elliott Chen on 7/5/17.
  */
 public class Longest_Palindromic_SubstringTest {
     @Test

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * Created by xuzhuchen on 6/28/17.
+ * Created by Elliott Chen on 6/28/17.
  */
 public class AddTwoNumbersTest {
     @Test

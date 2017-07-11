@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * Created by xuzhuchen on 7/3/17.
+ * Created by Elliott Chen on 7/3/17.
  */
 public class Median_of_Two_Sorted_ArraysTest {
     @Test

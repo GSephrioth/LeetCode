@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 /**
  *
- * Created by xuzhuchen on 7/11/17.
+ * Created by Elliott Chen on 7/11/17.
  */
 public class Container_With_Most_WaterTest {
     @Test

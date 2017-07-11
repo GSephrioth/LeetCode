@@ -3,18 +3,18 @@ package Hard;
 /**
  * There are two sorted arrays nums1 and nums2 of size m and n respectively.
  * Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
- * <p>
+ *
  * Example 1:
  * nums1 = [1, 3]
  * nums2 = [2]
  * The median is 2.0
- * <p>
+ *
  * Example 2:
  * nums1 = [1, 2]
  * nums2 = [3, 4]
  * The median is (2 + 3)/2 = 2.5
- * <p>
- * Created by xuzhuchen on 7/3/17.
+ *
+ * Created by Elliott Chen on 7/3/17.
  */
 class Median_of_Two_Sorted_Arrays {
     //循环实现

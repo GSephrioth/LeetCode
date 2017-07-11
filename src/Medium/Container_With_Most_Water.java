@@ -7,7 +7,7 @@ package Medium;
  *
  * Note: You may not slant the container and n is at least 2.
  *
- * Created by xuzhuchen on 7/10/17.
+ * Created by Elliott Chen on 7/10/17.
  */
 public class Container_With_Most_Water {
 //    // 粗暴遍历 n^2 复杂度 太慢了

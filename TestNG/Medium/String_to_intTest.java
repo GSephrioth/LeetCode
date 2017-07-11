@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 /**
  *
- * Created by xuzhuchen on 7/10/17.
+ * Created by Elliott Chen on 7/10/17.
  */
 public class String_to_intTest {
     @Test
