@@ -10,12 +10,34 @@ package Medium;
  * Created by xuzhuchen on 7/10/17.
  */
 public class Container_With_Most_Water {
-    public int maxArea(int[] height) {
-        for (int i = 0; i < height.length-1; i++) {
-            for (int j = i+1; j < height.length; j++) {
+//    // 粗暴遍历 n^2 复杂度 太慢了
+//    public int maxArea(int[] height) {
+//        int area = 0,temp = 0;
+//        for (int i = 0; i < height.length-1; i++) {
+//            for (int j = i+1; j < height.length; j++) {
+//                temp = (j - i) * Math.min(height[j],height[i]);
+//                area = Math.max(area,temp);
+//            }
+//        }
+//        return area;
+//    }
 
+    // good solution
+    public int maxArea(int[] height){
+        int area = 0, temp = 0;
+        int left = 0, right = height.length-1;
+        while (right > left) {
+            if(height[left] > height[right]){
+                temp = (right - left) * height[right];
+                area = Math.max(area,temp);
+                right --;
+            }else {
+                temp = (right - left) * height[left];
+                area = Math.max(area,temp);
+                left ++;
             }
         }
-        return 0;
+        return area;
     }
+
 }
