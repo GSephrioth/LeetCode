@@ -4,7 +4,7 @@ package Easy;
  * Write a function to find the longest common prefix string amongst an array of strings.
  * Created by xuzhuchen on 7/12/17.
  */
-public class Longest_Common_Prefix {
+class Longest_Common_Prefix {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder sb = new StringBuilder();
         char temp;

@@ -19,7 +19,7 @@ package Hard;
 
  * Created by xuzhuchen on 9/2/17.
  */
-public class Regular_Expression_Matching {
+class Regular_Expression_Matching {
     public boolean isMatch(String s, String p) {
         if (s.isEmpty() || p.isEmpty() ) return false;
 

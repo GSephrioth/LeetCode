@@ -9,7 +9,7 @@ package Medium;
  *
  * Created by xuzhuchen on 8/27/17.
  */
-public class Beautiful_Arrangement_II {
+class Beautiful_Arrangement_II {
     // TLE when n=9999 k=9998
     public int[] constructArray(int n, int k) {
         int[] list = new int[n];

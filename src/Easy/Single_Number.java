@@ -9,7 +9,7 @@ import java.util.HashSet;
  *
  * Created by xuzhuchen on 8/26/17.
  */
-public class Single_Number {
+class Single_Number {
     // toooo slow
 //    public int singleNumber(int[] nums) {
 //

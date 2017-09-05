@@ -15,7 +15,7 @@ import java.util.Arrays;
  * Given a list of ascending three-digits integers representing a binary with the depth smaller than 5. You need to return the sum of all paths from the root towards the leaves.
  * Created by xuzhuchen on 8/26/17.
  */
-public class Path_Sum_IV {
+class Path_Sum_IV {
     public int pathSum(int[] nums) {
         Arrays.sort(nums);
         int[] count =new int[nums.length];

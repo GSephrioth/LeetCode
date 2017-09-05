@@ -19,7 +19,7 @@ import java.util.Arrays;
  * Note: The n belongs to [1, 10,000].
  * Created by xuzhuchen on 8/26/17.
  */
-public class Non_decreasing_Array {
+class Non_decreasing_Array {
     public boolean checkPossibility(int[] nums) {
         if(nums.length <= 2) return true;
         int pre = 0,cur = 1, count = 0;

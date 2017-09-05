@@ -29,7 +29,7 @@ package Hard;
  The k will be in the range [1, m * n]
  * Created by xuzhuchen on 8/27/17.
  */
-public class Kth_smallest_Number_in_Multiplication_Table {
+class Kth_smallest_Number_in_Multiplication_Table {
     public int findKthNumber(int m, int n, int k) {
         int low = 1 , high = m * n + 1;
 

@@ -21,7 +21,7 @@ package Medium;
  *
  * Created by xuzhuchen on 9/2/17.
  */
-public class Kth_Smallest_Element_in_Sorted_Matrix {
+class Kth_Smallest_Element_in_Sorted_Matrix {
     // too slow col is also in ascending order
 //    public int kthSmallest(int[][] matrix, int k) {
 //        int n = matrix.length;
