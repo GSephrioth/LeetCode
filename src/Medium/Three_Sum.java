@@ -18,7 +18,7 @@ import java.util.List;
  * ]
  * Created by xuzhuchen on 9/4/17.
  */
-class ThreeSum {
+class Three_Sum {
     List<Integer> getResult(int x, int y, int z) {
         List<Integer> result = new LinkedList<>();
         result.add(x);

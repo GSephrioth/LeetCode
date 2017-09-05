@@ -3,8 +3,6 @@ package Medium;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -15,8 +13,8 @@ import static org.testng.Assert.*;
  *
  * Created by xuzhuchen on 9/4/17.
  */
-public class ThreeSumTest {
-    private ThreeSum TS = new ThreeSum();
+public class Three_SumTest {
+    private Three_Sum TS = new Three_Sum();
     @Test(dataProvider = "list")
     public void testThreeSum(int[] nums, List<List<Integer>> exp) throws Exception {
         assertEquals(TS.threeSum(nums).size(),exp.size());
